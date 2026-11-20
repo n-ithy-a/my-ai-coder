@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aihelper"
+version = "0.1.0"
+description = "Free-tier AI coding helper with auto model discovery and fallback"
+requires-python = ">=3.9"
+dependencies = ["litellm", "openai"]
+
+[tool.setuptools]
+py-modules = ["aihelper"]
